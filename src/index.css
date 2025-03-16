@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+@import "tailwindcss";
+
+.player-wrapper {
+  position: relative;
+  padding-top: 56.25%; /* 720 / 1280 = 0.5625 */
+}
+
+.react-player {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
